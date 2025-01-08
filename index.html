@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="public/styles.css" />
+    
+    <script
+      src="https://kit.fontawesome.com/2f99c509c6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="bg-backgroun overflow-x-hidden min-h-screen">
+    <nav class="py-4 px-4 md:px-16 w-full bg-white z-50">
+      <div
+        class="navigation flex justify-between md:px-[48px] py-[12px] px-[30px]"
+      >
+        <img src="images/SVG (1).png" alt="logo" />
+
+        <div
+          class="hidden md:block md:nav md:space-x-5 md:text-[#0F172A] space-x-8 items-center"
+        >
+          <a href="#" class="hover:underline text-xl">Communites</a>
+          <a href="#" class="hover:underline text-xl">Features</a>
+          <a href="#" class="hover:underline text-xl">Events</a>
+          <a href="#" class="hover:underline text-xl">About us</a>
+          <a href="#" class="hover:underline text-xl">login</a>
+          <a
+            href="#"
+            class="md:px-5 md:py-2 md:rounded-full md:bg-btncolor md:text-white md:hover:underline"
+            >join for free →
+          </a>
+        </div>
+        <button class="md:hidden text-black z-50" id="toogle">
+          <svg
+            class="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+        </button>
+      </div>
+    </nav>
+
+    <div class="container ">
+      <div class="hero md:px-72 text-center md:max-auto tr">
+        <div class="hero-content pb-4">
+          <h1 class="  text-[#0F172A] text-3xl md:text-5xl lg:text-6xl font-bold leading-tight mb-3">
+            Find Your Tribe,<br />
+            Build Your Network.
+          </h1>
+          <p class="text-[#0F172A] text-lg md:text-xl mb-6">
+            Connect with like-minded students for fun,<br />friendships, and
+            future opportunities.
+          </p>
+        </div>
+        <div class="hero-btn flex  px-14 flex-col mx-auto md:flex-row md:px-[30px] justify-center space-x-4 space-y-4 md:space-y-0">
+          <a
+            href="#"
+            class="px-5 py-2 rounded-full bg-btncolor text-white hover:underline "
+            >Join for free →</a
+          >
+          <a
+            href="#"
+            class="flex px-5 py-2 rounded-full border-black border-2 space-x-2"
+          >
+            <img src="images/Ellipse 32.png" alt="" />
+            <span>Explore Communities</span>
+          </a>
+        </div>
+      </div>
+      <div
+        class="hero-background m-0 p-0 w-[100%] flex justify-center items-center md:w-screen md:max-h-screen md:-pt-[-300px]"
+      >
+        <img
+          src="images/BG.png"
+          alt=""
+          class="object-cover block h-auto w-[100%] md:object-contain md:max-h[100%] "
+        />
+      </div>
+    </div>
+
+    <!-- mobile navigation  -->
+    <div id="mobile-menu" class="hidden md:hidden">
+      <div class="p-6 pt-20">
+        <button class="text-black absolute top-4 right-4" id="close-menu">
+          <svg
+            class="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </button>
+        <div class="flex flex-col space-y-6">
+          <a href="#" class="text-[#0F172A] text-xl">Features</a>
+          <a href="#" class="text-[#0F172A] text-xl">Communities</a>
+          <a href="#" class="text-[#0F172A] text-xl">Events</a>
+          <a href="#" class="text-[#0F172A] text-xl">About Us</a>
+          <a href="#" class="text-[#0F172A] text-xl">Login</a>
+          <a
+          href="#"
+          class="px-5 py-2 rounded-full bg-btncolor text-white hover:underline text-center"
+          >join for free →
+        </a>
+      </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
